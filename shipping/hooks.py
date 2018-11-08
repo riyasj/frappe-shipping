@@ -89,6 +89,9 @@ app_license = "MIT"
 doc_events = {
 	"Sales Order": {
 		"validate": "shipping.shipping.custom.tot_qty",
+	},
+	"Sea Import":{
+		"validate": "shipping.shipping.custom.total",
 	}
 }
 # Scheduled Tasks
